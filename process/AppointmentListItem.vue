@@ -11,7 +11,7 @@
 
       <div class="pet-head">
         <span class="pet-name"
-          contenteditable="true"
+          contenteditable="false"
           ref="petName"
           @blur="requestUpdate('petName')"
         >{{appointment.petName}}</span>
@@ -19,15 +19,15 @@
       </div><!-- pet-head -->
 
       <div class="owner-name">
-        <span class="label-item">Owner:</span>
+        <!-- <span class="label-item">bot:</span> -->
         <span
-          contenteditable="true"
+          contenteditable="false"
           ref="petOwner"
           @blur="requestUpdate('petOwner')"
         >{{appointment.petOwner}}</span>
       </div>
       <div class="apt-notes"              
-        contenteditable="true"
+        contenteditable="false"
         ref="aptNotes"
         @blur="requestUpdate('aptNotes')"
       >{{appointment.aptNotes}}</div>
