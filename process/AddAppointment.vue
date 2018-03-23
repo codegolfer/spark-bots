@@ -13,24 +13,24 @@
         @submit.prevent="requestAdd">
 
         <div class="form-group">
-          <label class="col-sm-2 control-label" htmlFor="petName">Pet Name</label>
+          <label class="col-sm-2 control-label" htmlFor="petName">Bot Name</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="petName" placeholder="Pet's Name" 
+            <input type="text" class="form-control" id="petName" placeholder="Bot's Name" 
             v-model="formData.petName" />
           </div><!-- col-sm-10 --> 
         </div><!-- form-group --> 
 
         <div class="form-group">
-          <label class="col-sm-2 control-label" htmlFor="petOwner">Pet Owner</label>
+          <label class="col-sm-2 control-label" htmlFor="petOwner">Bot Email</label>
           <div class="col-sm-10">
             <input type="text" class="form-control"
-              id="petOwner" placeholder="Owner's Name" 
+              id="petOwner" placeholder="Bot's Email" 
               v-model="formData.petOwner" />
           </div><!-- col-sm-10 -->
         </div><!-- form-group --> 
 
         <div class="form-group">
-          <label class="col-sm-2 control-label" htmlFor="aptDate">Date</label>
+          <label class="col-sm-2 control-label" htmlFor="aptDate">Date Created</label>
           <div class="col-sm-4">
             <input type="date" class="form-control" id="aptDate" 
             v-model="formData.aptDate" />
@@ -43,16 +43,16 @@
         </div><!-- form-group -->
 
         <div class="form-group">
-          <label class="col-sm-2 control-label" htmlFor="aptNotes">Apt. Notes</label>
+          <label class="col-sm-2 control-label" htmlFor="aptNotes">Bot Details</label>
           <div class="col-sm-10">
-            <textarea class="form-control" rows="4" cols="50" id="aptNotes" placeholder="Appointment Notes" 
+            <textarea class="form-control" rows="4" cols="50" id="aptNotes" placeholder="Bot's Details" 
             v-model="formData.aptNotes"></textarea>
           </div><!-- col-sm-10 --> 
         </div><!-- form-group -->
 
         <div class="form-group">
           <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-primary pull-right">Add Appointment</button>
+            <button type="submit" class="btn btn-primary pull-right">Add Bot</button>
           </div><!-- col-sm-offset-2 --> 
         </div><!-- form-group -->
 
