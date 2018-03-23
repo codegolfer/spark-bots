@@ -1,26 +1,50 @@
 [
   {
-    "petName": "Spot",
-    "petOwner": "Constance Smith",
+    "petName": "Boomerang: Spark to Email",
+    "petOwner": "boomerang@sparkbot.io",
     "aptDate": "2017-07-24 08:30",
-    "aptNotes": "This German Shepherd is having some back pain"
+    "aptNotes": "This bot allows you to send message to your mailbox right from your Spark client"
   },
   {
-    "petName": "Goldie",
-    "petOwner": "Barot Bellingham",
+    "petName": "Unspark",
+    "petOwner": "unspark@sparkbot.io",
     "aptDate": "2017-07-22 15:50",
-    "aptNotes": "This Goldfish has some weird spots in the belly"
+    "aptNotes": "Allows you to get user, room information within Spark"
   },
   {
-    "petName": "Mitten",
-    "petOwner": "Hillary Goldwyn",
+    "petName": "Action Items",
+    "petOwner": "actionitems@sparkbot.io",
     "aptDate": "2017-07-21 9:15",
-    "aptNotes": "Cat has excessive hairballs"
+    "aptNotes": "An excellent bot that allows you to track action items on personal or on a per space basis."
   },
   {
-    "petName": "Buffy",
-    "petOwner": "Hassum Harrod",
+    "petName": "Nester - Alexa like bot for Spark",
+    "petOwner": "nester@sparkbot.io",
     "aptDate": "2017-07-20 15:30",
-    "aptNotes": "This Chihuahua has not eaten for three days and is lethargic"
+    "aptNotes": "Wan't to know the meaning of life? Just ask the nester bot."
+  },
+  {
+    "petName": "Brainsparker",
+    "petOwner": "brainsparker@sparkbot.io",
+    "aptDate": "2017-07-20 15:30",
+    "aptNotes": "For some daily inspiring words, just add brainsparker bot to your space."
+  },
+  {
+    "petName": "Golfer",
+    "petOwner": "golfer@sparkbot.io",
+    "aptDate": "2017-07-20 15:30",
+    "aptNotes": "Try some swings with the golfer bot."
+  },
+  {
+    "petName": "Wikipedia",
+    "petOwner": "wikipedia@sparkbot.io",
+    "aptDate": "2017-07-20 15:30",
+    "aptNotes": "Search wikipedia right from your spark client."
+  },
+  {
+    "petName": "Invisible",
+    "petOwner": "invisible@sparkbot.io",
+    "aptDate": "2017-07-20 15:30",
+    "aptNotes": "Allows you to post messages without revealing your identity."
   }
 ]
