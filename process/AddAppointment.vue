@@ -3,7 +3,7 @@
 
     <div class="panel-heading apt-addheading"
       @click="hidepanel=!hidepanel">
-      <span class="glyphicon glyphicon-plus"></span> Add Appointment
+      <span class="glyphicon glyphicon-plus"></span> Add Spark Bot
     </div><!-- panel-heading -->
 
     <div class="panel-body"
