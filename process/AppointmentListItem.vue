@@ -12,9 +12,9 @@
       <div class="pet-head">
         <span class="pet-name"
           contenteditable="false"
-          ref="petName"
-          @blur="requestUpdate('petName')"
-        >{{appointment.petName}}</span>
+          ref="botName"
+          @blur="requestUpdate('botName')"
+        >{{appointment.botName}}</span>
         <span class="apt-date pull-right">{{this.formattedDate}}</span>
       </div><!-- pet-head -->
 
@@ -22,15 +22,15 @@
         <!-- <span class="label-item">bot:</span> -->
         <span
           contenteditable="false"
-          ref="petOwner"
-          @blur="requestUpdate('petOwner')"
-        >{{appointment.petOwner}}</span>
+          ref="botEmail"
+          @blur="requestUpdate('botEmail')"
+        >{{appointment.botEmail}}</span>
       </div>
       <div class="apt-notes"              
         contenteditable="false"
-        ref="aptNotes"
-        @blur="requestUpdate('aptNotes')"
-      >{{appointment.aptNotes}}</div>
+        ref="botNotes"
+        @blur="requestUpdate('botNotes')"
+      >{{appointment.botNotes}}</div>
 
     </div><!-- pet-info -->
 
@@ -61,7 +61,7 @@ export default {
 
   computed: {
     formattedDate: function() {
-      return moment(new Date(this.appointment.aptDate)).format('MM-DD-YY, h:mm a');
+      return moment(new Date(this.appointment.botDate)).format('MM-DD-YY, h:mm a');
     } //formattedDate
   } //computed
 } //default

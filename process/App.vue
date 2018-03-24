@@ -28,7 +28,7 @@ export default {
     return {
       theAppointments: [],
       searchTerms: '',
-      filterKey: 'petName',
+      filterKey: 'botName',
       filterDir: 'asc'
     } //return
   }, //data
@@ -74,9 +74,9 @@ export default {
     searchedApts: function() {
       return this.theAppointments.filter(function(item) {
         return (
-          (item.petName.toLowerCase().match(this.searchTerms.toLowerCase())) ||
-          (item.petOwner.toLowerCase().match(this.searchTerms.toLowerCase())) ||
-          (item.aptNotes.toLowerCase().match(this.searchTerms.toLowerCase()))
+          (item.botName.toLowerCase().match(this.searchTerms.toLowerCase())) ||
+          (item.botEmail.toLowerCase().match(this.searchTerms.toLowerCase())) ||
+          (item.botNotes.toLowerCase().match(this.searchTerms.toLowerCase()))
         )
       }.bind(this));
     }, //searchedApts

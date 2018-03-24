@@ -13,27 +13,27 @@
         @submit.prevent="requestAdd">
 
         <div class="form-group">
-          <label class="col-sm-2 control-label" htmlFor="petName">Bot Name</label>
+          <label class="col-sm-2 control-label" htmlFor="botName">Bot Name</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="petName" placeholder="Bot's Name" 
-            v-model="formData.petName" />
+            <input type="text" class="form-control" id="botName" placeholder="Bot's Name" 
+            v-model="formData.botName" />
           </div><!-- col-sm-10 --> 
         </div><!-- form-group --> 
 
         <div class="form-group">
-          <label class="col-sm-2 control-label" htmlFor="petOwner">Bot Email</label>
+          <label class="col-sm-2 control-label" htmlFor="botEmail">Bot Email</label>
           <div class="col-sm-10">
             <input type="text" class="form-control"
-              id="petOwner" placeholder="Bot's Email" 
-              v-model="formData.petOwner" />
+              id="botEmail" placeholder="Bot's Email" 
+              v-model="formData.botEmail" />
           </div><!-- col-sm-10 -->
         </div><!-- form-group --> 
 
         <div class="form-group">
-          <label class="col-sm-2 control-label" htmlFor="aptDate">Date Created</label>
+          <label class="col-sm-2 control-label" htmlFor="botDate">Date Created</label>
           <div class="col-sm-4">
-            <input type="date" class="form-control" id="aptDate" 
-            v-model="formData.aptDate" />
+            <input type="date" class="form-control" id="botDate" 
+            v-model="formData.botDate" />
           </div><!-- col-sm-4 --> 
           <label class="col-sm-2 control-label" htmlFor="aptTime">Time</label>
           <div class="col-sm-4">
@@ -43,10 +43,10 @@
         </div><!-- form-group -->
 
         <div class="form-group">
-          <label class="col-sm-2 control-label" htmlFor="aptNotes">Bot Details</label>
+          <label class="col-sm-2 control-label" htmlFor="botNotes">Bot Details</label>
           <div class="col-sm-10">
-            <textarea class="form-control" rows="4" cols="50" id="aptNotes" placeholder="Bot's Details" 
-            v-model="formData.aptNotes"></textarea>
+            <textarea class="form-control" rows="4" cols="50" id="botNotes" placeholder="Bot's Details" 
+            v-model="formData.botNotes"></textarea>
           </div><!-- col-sm-10 --> 
         </div><!-- form-group -->
 
@@ -75,10 +75,10 @@ export default {
   methods: {
     requestAdd: function() {
       var parsedData = {
-        petName: this.formData.petName,
-        petOwner: this.formData.petOwner,
-        aptDate: this.formData.aptDate + ' ' + this.formData.aptTime,
-        aptNotes: this.formData.aptNotes
+        botName: this.formData.botName,
+        botEmail: this.formData.botEmail,
+        botDate: this.formData.botDate + ' ' + this.formData.aptTime,
+        botNotes: this.formData.botNotes
       }
       this.$emit('addRecord', parsedData);
       this.formData = [];

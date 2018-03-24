@@ -1,50 +1,50 @@
 [
   {
-    "petName": "Boomerang: Spark to Email",
-    "petOwner": "boomerang@sparkbot.io",
-    "aptDate": "2018-02-01 01:30",
-    "aptNotes": "This bot allows you to send message to your mailbox right from your Spark client"
+    "botName": "Boomerang: Spark to Email",
+    "botEmail": "boomerang@sparkbot.io",
+    "botDate": "2018-02-01 01:30",
+    "botNotes": "This bot allows you to send message to your mailbox right from your Spark client"
   },
   {
-    "petName": "Unspark",
-    "petOwner": "unspark@sparkbot.io",
-    "aptDate": "2018-02-04 05:30",
-    "aptNotes": "Allows you to get user, room information within Spark"
+    "botName": "Unspark",
+    "botEmail": "unspark@sparkbot.io",
+    "botDate": "2018-02-04 05:30",
+    "botNotes": "Allows you to get user, room information within Spark"
   },
   {
-    "petName": "Action Items",
-    "petOwner": "actionitems@sparkbot.io",
-    "aptDate": "2017-06-06 10:30",
-    "aptNotes": "An excellent bot that allows you to track action items on personal or on a per space basis."
+    "botName": "Action Items",
+    "botEmail": "actionitems@sparkbot.io",
+    "botDate": "2017-06-06 10:30",
+    "botNotes": "An excellent bot that allows you to track action items on personal or on a per space basis."
   },
   {
-    "petName": "Nester - Alexa like bot for Spark",
-    "petOwner": "nester@sparkbot.io",
-    "aptDate": "2018-02-09 11:30",
-    "aptNotes": "Wan't to know the meaning of life? Just ask the nester bot."
+    "botName": "Nester - Alexa like bot for Spark",
+    "botEmail": "nester@sparkbot.io",
+    "botDate": "2018-02-09 11:30",
+    "botNotes": "Wan't to know the meaning of life? Just ask the nester bot."
   },
   {
-    "petName": "Brainsparker",
-    "petOwner": "brainsparker@sparkbot.io",
-    "aptDate": "2018-02-20 06:30",
-    "aptNotes": "For some daily inspiring words, just add brainsparker bot to your space."
+    "botName": "Brainsparker",
+    "botEmail": "brainsparker@sparkbot.io",
+    "botDate": "2018-02-20 06:30",
+    "botNotes": "For some daily inspiring words, just add brainsparker bot to your space."
   },
   {
-    "petName": "Golfer",
-    "petOwner": "golfer@sparkbot.io",
-    "aptDate": "2018-02-01 09:30",
-    "aptNotes": "Try some swings with the golfer bot."
+    "botName": "Golfer",
+    "botEmail": "golfer@sparkbot.io",
+    "botDate": "2018-02-01 09:30",
+    "botNotes": "Try some swings with the golfer bot."
   },
   {
-    "petName": "Wikipedia",
-    "petOwner": "wikipedia@sparkbot.io",
-    "aptDate": "2018-02-23 07:30",
-    "aptNotes": "Search wikipedia right from your spark client."
+    "botName": "Wikipedia",
+    "botEmail": "wikipedia@sparkbot.io",
+    "botDate": "2018-02-23 07:30",
+    "botNotes": "Search wikipedia right from your spark client."
   },
   {
-    "petName": "Invisible",
-    "petOwner": "invisible@sparkbot.io",
-    "aptDate": "2018-02-12 12:30",
-    "aptNotes": "Allows you to post messages without revealing your identity."
+    "botName": "Invisible",
+    "botEmail": "invisible@sparkbot.io",
+    "botDate": "2018-02-12 12:30",
+    "botNotes": "Allows you to post messages without revealing your identity."
   }
 ]
